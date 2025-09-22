@@ -35,7 +35,7 @@
 ## Funcionamento do sistema
 
 ### Índice
-- [00 - Contextualização](docs/Comtextualizacao.md)
+- [00 - Contextualização](docs/Contextualizacao.md)
 - [01 - Classe Pessoa](docs/Classe-Pessoa.md)
 - [02 - Classe Admin](docs/Classe-Admin.md)
 - [03 - Classe Avaliador](docs/Classe-Avaliador.md)
