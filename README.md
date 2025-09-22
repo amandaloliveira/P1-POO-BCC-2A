@@ -35,3 +35,10 @@
 ## Funcionamento do sistema
 
 ### Índice
+- [00 - Contextualização]
+- [01 - Classe Pessoa]
+- [02 - Classe Admin]
+- [03 - Classe Avaliador]
+- [04 - Classe Avaliação]
+- [05 - Classe jogo]
+- [06 - Index]
