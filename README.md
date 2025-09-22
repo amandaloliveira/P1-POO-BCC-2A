@@ -35,10 +35,10 @@
 ## Funcionamento do sistema
 
 ### Índice
-- [00 - Contextualização]
-- [01 - Classe Pessoa]
-- [02 - Classe Admin]
-- [03 - Classe Avaliador]
-- [04 - Classe Avaliação]
-- [05 - Classe jogo]
-- [06 - Index]
+- [00 - Contextualização](docs/Comtextualizacao.md)
+- [01 - Classe Pessoa](docs/Classe-Pessoa.md)
+- [02 - Classe Admin](docs/Classe-Admin.md)
+- [03 - Classe Avaliador](docs/Classe-Avaliador.md)
+- [04 - Classe Avaliação](docs/Classe-Avaliacao.md)
+- [05 - Classe jogo](docs/Classe-Jogo.md)
+- [06 - Index](docs/Index.md)
