@@ -1,4 +1,4 @@
-## Index
+# Index
 [⬅️ Voltar à página principal](../README.md)
 
 O **index** é onde iremos realizar os testes de cada função criada, no formato de um pseudo-sistema de avaliação de jogos, sendo possível a criação de novos usuários, a adição de novos filmes, o login e logout de usuários, entre outras funcionalidades.
