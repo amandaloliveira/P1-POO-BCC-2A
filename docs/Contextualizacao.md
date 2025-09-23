@@ -5,7 +5,7 @@
 
 - [Tema do Projeto](#tema-do-projeto)
 - [Funcionalidades](#funcionalidades)
-- [Decisões Tomadas](#decisões-tomadas-no-projeto)
+- [Decisões Tomadas](#decisões-tomadas)
 
 ---
 
