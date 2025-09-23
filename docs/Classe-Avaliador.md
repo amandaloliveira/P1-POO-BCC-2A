@@ -20,21 +20,23 @@ Importação das classes Pessoa, Jogo e Avaliacao para o escopo da classe Avalia
 
     class Avaliador extends Pessoa
     
-'Avaliador' é uma classe filha de Pessoa, herdando as informações contidas na classe (sejam atributos e funções)
+Avaliador é uma classe filha de Pessoa, herdando as informações contidas na classe (sejam atributos e funções).
 
     public function avaliarJogo(Jogo $jogo, float $nota, bool $recomenda): Avaliacao
     
-A função é pública para ser acessada por qualquer classe ou arquivo.
+A função é *pública* para ser acessada por qualquer classe ou arquivo.
 É uma função para avaliar jogo e para ser executada normalmente, deve receber alguns parâmetros: um objeto da classe jogo, uma nota flutuante e uma recomendação booleana (true or false).
 Ao final da execução da função, é retornada uma instância (avaliação) do tipo avaliação (classe criada).
 
         $avaliacao = new Avaliacao($this, $jogo, $nota, $recomenda);
         
-A instância/objeto $avaliacao cria uma nova instância do tipo Avaliacao (classe) com os atributos requisitados.
-O $this refere-se ao próprio avaliador, e lista os métodos necessários para se executar a função (O avaliador, o jogo, a nota e a recomendação).
+A instância/objeto *$avaliacao* cria uma nova instância do tipo Avaliacao (classe) com os atributos requisitados.
+O *$this* refere-se ao próprio avaliador, e lista os métodos necessários para se executar a função (O avaliador, o jogo, a nota e a recomendação).
 
         $jogo->adicionarAvaliacao($avaliacao);
-Após criar a avaliação, o objeto $jogo escolhido pelo avaliador chama o método adicionarAvaliacao($avaliacao) para adicionar a nova avaliação criada e armazenada na variável $avaliacao.
+        
+Após criar a avaliação, o objeto *$jogo* escolhido pelo avaliador chama o método *adicionarAvaliacao($avaliacao)* para adicionar a nova avaliação criada e armazenada na variável *$avaliacao*.
 
         return $avaliacao;
+        
 Ao fim da função, é retornada a nova avaliação criada pelo usuário avaliador.
