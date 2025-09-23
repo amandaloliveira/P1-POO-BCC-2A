@@ -5,7 +5,7 @@
 
 - [Tema do Projeto](#tema-do-projeto)
 - [Funcionalidades](#funcionalidades)
-- [Decisões Tomadas no Projeto](#decisoes-tomadas-no-projeto)
+- [Decisões Tomadas](#decisões-tomadas-no-projeto)
 
 ---
 
@@ -34,7 +34,7 @@ O tema do nosso projeto consiste em um **Sistema de Avaliação de Jogos**, com 
 
 ---
 
-## Decisões Tomadas no Projeto
+## Decisões Tomadas
 
 Inicialmente, havia muitas funcionalidades definidas na primeira versão do projeto, como a adição/edição/remoção de comentários, divisão dos jogos por categorias, entre outras funcionalidades.
 
