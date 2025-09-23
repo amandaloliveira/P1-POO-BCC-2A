@@ -1,4 +1,4 @@
-## Classe Pessoa
+# Classe Pessoa
 [⬅️ Voltar à página principal](../README.md)
 
 A classe pessoa é a **classe mãe** das classes filhas **Admin** e **Avaliador**. Ela é uma classe que não possui métodos, apenas atributos.
