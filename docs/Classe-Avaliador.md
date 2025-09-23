@@ -1,4 +1,4 @@
-## Classe Avaliador
+# Classe Avaliador
 [⬅️ Voltar à página principal](../README.md)
 
 A classe **avaliador** é a **classe filha** da **classe mãe Pessoa**, ou seja, ela é uma classe que **herda** as informações contidas na classe Pessoa, seja seus atributos e/ou métodos. Ela é uma classe que não possui outros atributos além da classe Pessoa, apena um novo método.
