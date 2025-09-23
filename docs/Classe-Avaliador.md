@@ -16,7 +16,7 @@ Namespace é como se fosse uma pasta virtual para organizar os arquivos contidos
     use Unimar\Poo\Avaliacao;
     use Unimar\Poo\Pessoa;
     
-Importação das classes Pessoa, Jogo e Avaliacao para o escopo da classe Avaliador', permitindo a utilização direta.
+Importação das classes Pessoa, Jogo e Avaliacao para o escopo da classe Avaliador, permitindo a utilização direta.
 
     class Avaliador extends Pessoa
     
