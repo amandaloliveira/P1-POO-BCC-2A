@@ -1,9 +1,0 @@
-{
-    "name": "unimar/poo",
-    "autoload": {
-        "psr-4": {
-            "Unimar\\Poo\\": "src/"
-        }
-    },
-    "require": {}
-}
