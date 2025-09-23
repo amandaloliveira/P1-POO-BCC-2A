@@ -3,7 +3,7 @@
 
 A classe pessoa é a **classe mãe** das classes filhas **Admin** e **Avaliador**. Ela é uma classe que não possui métodos, apenas atributos.
 
-O código será explicado em blocos de código, sendo destacado o que alguns comandos realizam, o que é a função construída, o que ela exige, entre outros.
+O código será explicado em blocos de código, sendo destacado o que alguns comandos realizam, o que é a função construída, o que ela exige, entre outros pontos relevantes para a explicação.
 
 ---
     <?php
@@ -11,7 +11,7 @@ O código será explicado em blocos de código, sendo destacado o que alguns com
     
 A 1ª linha é a tag de abertura para indicar que o código é em php.
 
-Já na 2ª linha é utilizado o **namespace**, que é como se fosse uma pasta virtual para organizar os arquivos contidos nela, evitando o conflito de nomenclatura.
+Já na 2ª linha é utilizado o **namespace**, que representa uma pasta virtual para organizar os arquivos contidos nela, evitando o conflito de nomenclatura.
 
     abstract class Pessoa{
       protected string $nome;
@@ -27,7 +27,7 @@ O **assessor** corresponde a qual o tipo de acesso definido. Neste caso, é o **
 
 O **tipo** corresponde ao tipo da variável. Neste caso, o tipo é definido como uma string, ou seja, uma cadeia de caracteres.
 
-Já a **variável** corresponde ao nome que iremos atribuir à variável. Neste caso, atribuímos os nomes ‘nome’, ‘email’ e ‘senha’.
+Já a **variável** corresponde ao nome que iremos atribuir à variável. Neste caso, atribuímos os nomes *nome*, *email* e *senha*.
 
     public function __construct(string $nome, string $email, string $senha)
     
@@ -39,7 +39,7 @@ O método construtor é chamado automaticamente ao se criar uma nova instância/
         $this->email = $email;
         $this->senha = $senha;
 
-A pseudo-variável $this está disponível quando um método é chamado a partir de um contexto de um objeto. $this é o valor do objeto chamado.
+A pseudo-variável *$this* está disponível quando um método é chamado a partir de um contexto de um objeto. *$this* é o valor do objeto chamado.
 
     public function getNome(): string
     {
@@ -55,5 +55,3 @@ Função pública para retornar o nome do usuário avaliador.
     }
 
 Função pública para retornar a autenticação de senha do usuário avaliador.
-
-
