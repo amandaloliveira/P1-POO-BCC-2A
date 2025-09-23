@@ -1,4 +1,4 @@
-## Classe Admin
+# Classe Admin
 [⬅️ Voltar à página principal](../README.md)
 
 A classe Admin é a classe filha da classe mãe Pessoa. Ela é uma classe que não possui outros aributos além da classe Pessoa, apenas um método.
