@@ -1,7 +1,7 @@
 ## Classe Avaliador
 [⬅️ Voltar à página principal](../README.md)
 
-A classe avaliador é a **classe filha** da classe mãe **Pessoa**. Ela é uma classe que não possui outros aributos além da classe Pessoa, apena um método.
+A classe **avaliador** é a **classe filha** da **classe mãe Pessoa**. Ela é uma classe que não possui outros aributos além da classe Pessoa, apena um método.
 
 O código será explicado em blocos de código, sendo destacado o que alguns comandos realizam, o que é a função construída, o que ela exige, entre outros.
 
