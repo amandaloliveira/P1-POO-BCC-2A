@@ -6,11 +6,13 @@ A classe **avaliador** é a **classe filha** da **classe mãe Pessoa**, ou seja,
 O código será explicado em blocos de código, sendo destacado o que alguns comandos realizam, o que é a função construída, o que ela exige, entre outros pontos relevantes para a explicação.
 
 ---
+
     <?php
     namespace Mandis\Poo;
+    
+A 1ª linha é a tag de abertura para indicar que o código é em php.
 
-Tag de abertura para indicar que o código é em php.
-Namespace é como se fosse uma pasta virtual para organizar os arquivos contidos nela, evitando o conflito de nomenclatura.
+Já na 2ª linha é utilizado o **namespace**, que representa uma pasta virtual para organizar os arquivos contidos nela, evitando o conflito de nomenclatura.
 
     use Unimar\Poo\Jogo;
     use Unimar\Poo\Avaliacao;
